@@ -18,7 +18,7 @@ export default function
       <div className='w-[80%] flex flex-col m-auto gap-5'>
         <div>
           <p className='text-2xl font-semibold'>Name:</p>
-          <h3 className='text-xl'>Amritpal Singh</h3>
+          <h3 className='text-xl'>Amritpal Singh Somal</h3>
         </div>
         <div>
           <p className='text-2xl font-semibold'>Email:</p>
