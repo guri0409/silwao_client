@@ -28,5 +28,3 @@ export default function ProductDetailPage() {
     </>
   );
 }
-
-// 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
