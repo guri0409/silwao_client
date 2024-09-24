@@ -22,9 +22,11 @@ export default function ProductDetailPage() {
       <Navbar />
       <div className="slider-container">
         <button onClick={handlePrevSlide}>Prev</button>
-        <img src={slides[currentSlide]} alt="Product Image" />
         <button onClick={handleNextSlide}>Next</button>
+        <img src={slides[currentSlide]} alt="Product Image"  className='' />
       </div>
     </>
   );
 }
+
+// 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
