@@ -22,7 +22,7 @@ export default function Navbar() {
             <li><Link to="/"><img src={house} alt="" srcset="" className='w-12 h-12'/></Link></li>
             <li ><Link to="/profile"><img src={woman} className='w-12 h-12' alt="" srcset="" /></Link></li>
             <li><Link to="/notification"><img src={bell} className='h-12 w-12' alt="" /></Link></li>
-            <li><img src={onlineshoping}className='h-12 w-12' alt="" /></li>
+            <li><Link to="/cart"><img src={onlineshoping} className='h-12 w-12' alt="" /></Link></li>
         </ul>
    
    </>

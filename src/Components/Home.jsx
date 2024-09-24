@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from './Navbar'
+import { Link } from 'react-router-dom'
 import white1 from '/public/images/white1.jpg'
 import white3 from '/public/images/white3.jpg'
 import Customize from '/public/images/Customize.png'
@@ -26,7 +27,7 @@ export default function Home() {
 
         <div className='flex flex-col items-center border gap-2'>
             <img src={Customize} className='h-36 w-32 md:h-64 md:w-64' alt="" srcset="" />
-            <button className='h-10 w-20 bg-red-500 text-sm rounded-md md:w-40'>Fully Customize</button>
+            <Link to="/product-detail" className='h-10 w-20 bg-red-500 text-sm rounded-md text-center md:w-40'>Fully Customize</Link>
         </div>
         <div className='flex flex-col items-center border gap-2'>
             <img src={resize} className='h-36 w-32 md:h-64 md:w-64' alt="" srcset="" />

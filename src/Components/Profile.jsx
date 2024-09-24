@@ -12,7 +12,7 @@ export default function
         <img src={profilepic} className='rounded-full w-32 h-32' alt="" />
         <div className='flex justify-center gap-5 my-5'>
           <Link class='h-10 w-20 bg-sky-400 text-sm rounded-md mt-2 p-3' to="/orders">Orders</Link>
-          <Link class='h-10 w-20 bg-sky-400 text-sm rounded-md mt-2 p-3'>Wishlist</Link>
+          <Link class='h-10 w-20 bg-sky-400 text-sm rounded-md mt-2 p-3' to="/wishlist">Wishlist</Link>
         </div>
       </div>
       <div className='w-[80%] flex flex-col m-auto gap-5'>
