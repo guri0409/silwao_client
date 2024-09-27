@@ -19,11 +19,11 @@ export default function Navbar() {
     </div>
 
         <ul className='flex justify-between gap-1 px-2 items-center bg-gray-500 h-14 space-x-10 text-white'>
-            <li><Link to="/"><img src={house} alt="" srcset="" className='w-12 h-12'/></Link></li>
-            <li ><Link to="/profile"><img src={woman} className='w-12 h-12' alt="" srcset="" /></Link></li>
-            <li><Link to="/notification"><img src={bell} className='h-12 w-12' alt="" /></Link></li>
-            <li><Link to="/cart"><img src={onlineshoping} className='h-12 w-12' alt="" /></Link></li>
-            <li><Link to="/cart"><img src={menu} className='h-12 w-12' alt="" /></Link></li>
+            <li><Link to="/"><img src={house} alt="" srcset="" className='w-20 h-12'/></Link></li>
+            <li ><Link to="/profile"><img src={woman} className='w-20 h-12' alt="" srcset="" /></Link></li>
+            <li><Link to="/notification"><img src={bell} className='h-12 w-20' alt="" /></Link></li>
+            <li><Link to="/cart"><img src={onlineshoping} className='h-12 w-20' alt="" /></Link></li>
+            <li><Link to="/cart"><img src={menu} className='h-12 w-20' alt="" /></Link></li>
         </ul>
    
    </>
