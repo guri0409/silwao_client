@@ -46,7 +46,7 @@ export default function SignupPage() {
             </p>
             <p className='flex justify-center'>
             {/* <Link class='h-10 w-20 bg-sky-400 text-sm rounded-md mt-2 p-3'>Signup</Link> */}
-            <button type='submit'>Submit</button>
+            <button type='submit' className='h-10 w-20 bg-sky-400 text-sm rounded-md mt-2'>Submit</button>
             </p>
         </form>
     </>
