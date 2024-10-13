@@ -4,8 +4,8 @@ import white1 from '/images/one.png';
 import white2 from '/images/two.png';
 import white3 from '/images/three.png';
 import { Link } from 'react-router-dom';
-import buy from '/images/ordernow.jpeg'
-import cart from '/images/addtocart.png'
+import buy from '/images/onq.png'
+import cart from '/images/atc1.png'  
 import 'swiper/css';
 import 'swiper/css/pagination';
 
@@ -62,8 +62,8 @@ export default function ProductDetailPage() {
       <hr class="w-[100%] h-1 my-2 border-0 rounded bg-blue-400" />
 
       <div className='flex flex-col justify-center gap-5 my-5 items-center'>
-        <Link class='' to="/orders"><img src={buy} className='h-20 w-[80%]' alt="" srcset="" /></Link>
-        <Link class='' to="/orders"><img src={cart} className='h-20 w-[80%]' alt="" srcset="" /></Link>
+        <Link class='' to="/post-measurement"><img src={buy} className='h-12 w-[70%] mx-auto' alt="" srcset="" /></Link>
+        <Link class='' to="/orders"><img src={cart} className='h-12 w-[70%] mx-auto' alt="" srcset="" /></Link>
       </div>
 
     </>

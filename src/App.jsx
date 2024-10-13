@@ -11,7 +11,11 @@ import Otp from './Components/Otp'
 import FullCustomize from './Components/FullCustomize'
 import Wishlist from './Components/Wishlist'
 import Cart from './Components/Cart'
+import PostMeasurement from './Components/EnterMeasurement'
+import KmeezMeasurement from './Components/KmeezMeasurement'
 import ProductDetailPage from './Components/ProductDetailPage'
+import SalwarMeasurement from './Components/SalwarMeasurement'
+import UploadMeasurement from './Components/UploadMeasurement'
 
 function App() {
   
@@ -29,6 +33,10 @@ function App() {
       <Route path='/wishlist' element={<Wishlist/>}></Route>
       <Route path='/cart' element={<Cart/>}></Route>
       <Route path='/product-detail' element={<ProductDetailPage/>}></Route>
+      <Route path='/post-measurement' element={<PostMeasurement/>}></Route>
+      <Route path="/kmeeze-measurement" element={<KmeezMeasurement/>}></Route>
+      <Route path='/salwar-measurement' element={<SalwarMeasurement/>}></Route>
+      <Route path='/upload-measurement' element={<UploadMeasurement/>}></Route>
 
      </Routes>
     </>

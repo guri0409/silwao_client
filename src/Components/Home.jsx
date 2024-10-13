@@ -17,40 +17,27 @@ export default function Home() {
       <div className="overflow-x-auto mt-5 no-scrollbar">
         <div className="flex gap-3 mx-3">
           <Link to="/product-detail">
-            <div className="flex flex-col items-center border gap-1 min-w-28 rounded-md shadow-xl ">
-              <img src={two} className="h-24 w-[100%] md:h-72 md:w-80 rounded-md" alt="" srcset="" />
+            <div className="flex flex-col items-center border gap-1 min-w-40 rounded-md shadow-xl ">
+              <img src={two} className="h-45 w-[100%] md:h-72 md:w-80 rounded-md" alt="" srcset="" />
               <h6 className='text-sm font-semibold'>Patialashahi suit</h6>
               <h6 className='text-sm'>Price: <span>1199/- Rs.</span></h6>
             </div>
           </Link>
           <Link to="/product-detail">
-            <div className="flex flex-col items-center border gap-1 min-w-28 rounded-md shadow-xl">
-              <img src={one} className="h-24 w-[100%] md:h-72 md:w-80 rounded-md" alt="" srcset="" />
+            <div className="flex flex-col items-center border gap-1 min-w-40 rounded-md shadow-xl ">
+              <img src={two} className="h-50 w-[100%] md:h-72 md:w-80 rounded-md" alt="" srcset="" />
               <h6 className='text-sm font-semibold'>Patialashahi suit</h6>
               <h6 className='text-sm'>Price: <span>1199/- Rs.</span></h6>
             </div>
           </Link>
           <Link to="/product-detail">
-            <div className="flex flex-col items-center border gap-1 min-w-28 rounded-md shadow-xl">
-              <img src={three} className="h-24 w-[100%] md:h-72 md:w-80 rounded-md" alt="" srcset="" />
+            <div className="flex flex-col items-center border gap-1 min-w-40 rounded-md shadow-xl ">
+              <img src={two} className="h-50 w-[100%] md:h-72 md:w-80 rounded-md" alt="" srcset="" />
               <h6 className='text-sm font-semibold'>Patialashahi suit</h6>
               <h6 className='text-sm'>Price: <span>1199/- Rs.</span></h6>
             </div>
-          </Link>
-          <Link to="/product-detail">
-            <div className="flex flex-col items-center border gap-1 min-w-28 rounded-md shadow-xl">
-              <img src={two} className="h-24 w-[100%] md:h-72 md:w-80 rounded-md" alt="" srcset="" />
-              <h6 className='text-sm font-semibold'>Patialashahi suit</h6>
-              <h6 className='text-sm'>Price: <span>1199/- Rs.</span></h6>
-            </div>
-          </Link>
-          <Link to="/product-detail">
-            <div className="flex flex-col items-center border gap-1 min-w-28 rounded-md shadow-xl">
-              <img src={two} className="h-24 w-[100%] md:h-72 md:w-80 rounded-md" alt="" srcset="" />
-              <h6 className='text-sm font-semibold'>Patialashahi suit</h6>
-              <h6 className='text-sm'>Price: <span>1199/- Rs.</span></h6>
-            </div>
-          </Link>
+          </Link>s
+         
         </div>
         
       </div>
